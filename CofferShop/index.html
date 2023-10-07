@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <style>
+        /* CSS cho trang web*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            /* CSS cho thiết bị di động */
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style> -->
+</head>
+<body>
+   <header>
+        <h1>Coffee Shop's Name</h1>
+        <img src="img/logo.PNG" alt="Coffee Shop Logo" class="responsive-img">
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Our Coffee Shop</h2>
+        <img src="about-image.jpg" alt="About Coffee Shop" class="responsive-img">
+        <p>Description about the coffee shop...</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <!-- Danh sách sản phẩm -->
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Danh sách sự kiện -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
