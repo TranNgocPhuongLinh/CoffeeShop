@@ -78,6 +78,10 @@ section {
     border: 1px solid black;
 }
 
+.menu-block:hover{
+    box-shadow: 0 0 5px red;
+}
+
 .menu-title{
     font-size: 18px;
     height: 30px;
