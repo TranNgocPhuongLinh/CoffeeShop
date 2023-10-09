@@ -60,6 +60,47 @@ section {
     }
 }*/
 
+#product{
+    margin:auto;
+    position: absolute;
+    width: auto;
+}
+
+.menu-block{
+    border-radius: 5px;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    display: inline-block;
+    margin: 50px 100px 5px 10px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.menu-title{
+    font-size: 18px;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+
+.menu-item{
+    text-align: left;
+}
+
+.menu-item table{
+    width: 100%;
+}
+
+.menu-item td{
+    padding-left: 10px;
+}
+
+
+
+
 footer {
     background-color: #333;
     color: #FFF;
